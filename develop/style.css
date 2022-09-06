@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
     .topnav {
         background-color: #333;
@@ -44,7 +44,4 @@
 
 
 
-@media screen and (max-width: 700px) {
-    .row, .navbar {   
-      flex-direction: column;
-    }
+
