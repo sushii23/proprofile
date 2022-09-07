@@ -15,7 +15,27 @@ header{
   justify-content: left;
 }
 
+section {
+  display: flex;
+  flex-direction: row;
+}
 
+section:nth-child(odd) {
+ flex-direction: row-reverse;
+}
+
+
+section div {
+  width: 50%;
+}
+
+section div .text{
+  padding: 60px;
+}
+
+section div .full-image {
+  h
+}
 
 
 
