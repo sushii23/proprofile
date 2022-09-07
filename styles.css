@@ -25,19 +25,36 @@ section:nth-child(odd) {
 }
 
 
-section div {
+section div{
   width: 50%;
 }
 
-section div .text{
+section div.text{
   padding: 60px;
 }
 
-section div .full-image {
-  h
+section div.full-image {
+  height: 100vh;
+  background-image: url(IMG_1343.JPG);
+  background-size: cover;
+  background-position: center;
+
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
 }
 
+section div.image-2 {
+  background-image: url(IMG_5651.JPG);
+}
 
+section div.image-3 {
+  background-image: url(IMG_5531.JPG);
+}
+
+section div.image-4 {
+  background-image: url(IMG_1531.JPG);
+}
 
 
 
