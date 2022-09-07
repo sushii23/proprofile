@@ -6,13 +6,13 @@
 
 header{
   height: 100vh;
-  background-image: url();
+  background-image: url(Tutorial\ Website\ Blog\ Banner.png);
   background-size: cover;
   background-position: center;
 
   display: flex;
-  align-content: center;
-  justify-content: center;
+  align-content: left;
+  justify-content: left;
 }
 
 
