@@ -64,7 +64,44 @@ body {
   font-family: "Lobster", sans-serif;
 }
 
+@media (max-width: 800px) {
+   
+  body {
+    font-size: 16px;
+  }
 
+   h2 {
+    font-size: 32px;
+   }
+
+   header {
+
+    height: 75vw;
+   }
+
+   section {
+
+    display: block;
+
+   }
+
+   section div {
+
+    width: 100%;
+   }
+
+   section div.text {
+
+    padding: 30px;
+
+   }
+
+   section div.full-image {
+
+    height: 100vw;
+   }
+
+}
 
 
 
