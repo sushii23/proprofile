@@ -2,8 +2,35 @@
   background-color: black;
   color: white;
   margin:0 auto; 
+  scroll-behavior: smooth;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: gray;
+}
+
+
+/* header and photo inside the header */
 header{
   height: 100vh;
   background-image: url(Tutorial\ Website\ Blog\ Banner.png);
@@ -14,7 +41,7 @@ header{
   align-content: left;
   justify-content: left;
 }
-
+ /* page layout to split and scroll */
 section {
   display: flex;
   flex-direction: row;
@@ -64,6 +91,7 @@ body {
   font-family: "Lobster", sans-serif;
 }
 
+/* adjustments for screen  */
 @media (max-width: 800px) {
    
   body {
@@ -100,6 +128,8 @@ body {
 
     height: 100vw;
    }
+
+   
 
 }
 
