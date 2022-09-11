@@ -6,5 +6,5 @@ Made with HTML & CSS
 
 # Screenshots 
 
-![header-sc](Screen Shot 2022-09-10 at 8.34.38 PM (3))
-![web-sc]()
+![header-sc](wcs.png)
+![web-sc](hsc.png)
